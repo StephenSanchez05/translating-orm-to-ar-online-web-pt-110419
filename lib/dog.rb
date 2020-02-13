@@ -1,7 +1,2 @@
-class Dog
-  
-  attr_accessor :name, :breed
-  
-  def initialize ()
-  
+class Dog < ActiveRecord::Base
 end
